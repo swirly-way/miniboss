@@ -1,7 +1,10 @@
+import VariantButtonGroup from "./VariantButtonRecipes";
+
 const Food = () => {
   return (
     <div>
-      <h1 className="p-4 m-2 w-1/2">Food</h1>
+      Here you need to place another the last set of links to breakfast, lunch
+      and dinner
     </div>
   );
 };
