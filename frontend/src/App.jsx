@@ -9,7 +9,7 @@ import Rules from "./pages/Rules";
 
 export default function App() {
   return (
-    <div className="bg-green-200">
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
