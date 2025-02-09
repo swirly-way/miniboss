@@ -2,10 +2,13 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Recipes from "./pages/Recipes";
+import RecipesLayout from "./pages/Recipes";
 import Service from "./pages/Service";
 import Equipment from "./pages/Equipment";
 import Rules from "./pages/Rules";
+import Desserts from "./pages/Desserts";
+import Food from "./pages/Food";
+import Drinks from "./pages/Drinks";
 
 export default function App() {
   return (
@@ -14,10 +17,17 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="Recipes" element={<Recipes />} />
+            <Route path="Recipes" element={<RecipesLayout />} />
             <Route path="Service" element={<Service />} />
             <Route path="Equipment" element={<Equipment />} />
             <Route path="Rules" element={<Rules />} />
+          </Route>
+
+          <Route path="/Recipes" element={<RecipesLayout />}>
+            <Route index element={<Home />} />
+            <Route path="Food" element={<Food />} />
+            <Route path="Drinks" element={<Drinks />} />
+            <Route path="Desserts" element={<Desserts />} />
           </Route>
         </Routes>
       </BrowserRouter>

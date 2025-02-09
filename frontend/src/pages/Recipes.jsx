@@ -1,7 +1,28 @@
-const Recipes = () => {
-  <div className="p-4 m-2 w-1/2">
-    <h1>Recipes</h1>
-  </div>;
+import { Outlet, Link } from "react-router-dom";
+
+const RecipesLayout = () => {
+  return (
+    <>
+      <nav className="topNavBar">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Recipes/Food">Food</Link>
+          </li>
+          <li>
+            <Link to="/Recipes/Drinks">Drinks</Link>
+          </li>
+          <li>
+            <Link to="/Recipes/Desserts">Desserts</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Outlet />
+    </>
+  );
 };
 
-export default Recipes;
+export default RecipesLayout;
