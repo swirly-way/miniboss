@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import VariantButtonRecipes from "./VariantButtonRecipes";
+import VariantButtonRecipes from "./RecipesNavBar";
 
 const RecipesLayout = () => {
   return (

@@ -1,4 +1,4 @@
-import VariantButtonGroup from "./VariantButtonRecipes";
+import VariantButtonGroup from "./RecipesNavBar";
 
 const Food = () => {
   return (

@@ -1,5 +1,3 @@
-import VariantButtonGroup from "./VariantButtonRecipes";
-
 const Recipes = () => {
   return (
     <div className="recipes-container p-4 m-2 w-1/2">
