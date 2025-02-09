@@ -23,15 +23,15 @@ nav {
 }
 
 ul {
-  display: flex; /* Ensure the list items (li) are displayed in a row */
-  margin: 0; /* Remove default margin from the ul */
-  padding: 0; /* Remove default padding from the ul */
-  list-style-type: none; /* Remove default list bullets */
-  width: 100%; /* Ensure the ul takes up the full width of the navbar */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
 }
 
 li {
-  flex: 1; /* Make each list item take up equal space */
-  text-align: center; /* Center the text inside each li element */
-  padding: 10px; /* Add some space around the text */
+  flex: 1;
+  text-align: center;
+  padding: 10px;
 }
