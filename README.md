@@ -6,3 +6,6 @@ The front-end will consist of a home page with different important topics relate
 
 The back-end should be able to manage the different routes the data will have for each topic. It should be clear and structured by grouping the information into relevant tables and making the necessary arrangements so that data can be fetched from a PostgreSQL database. 
 
+# Milestones:
+- Implemented a functional React Router sorting the different pages of the app.
+
