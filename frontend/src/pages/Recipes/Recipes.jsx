@@ -1,4 +1,4 @@
-const Recipes = () => {
+export default function Recipes() {
   return (
     <div className="recipes-container p-4 m-2 w-1/2">
       <h1 className="header h-[5%] bg-blue-900">Recipes</h1>
@@ -16,6 +16,4 @@ const Recipes = () => {
       </div>
     </div>
   );
-};
-
-export default Recipes;
+}

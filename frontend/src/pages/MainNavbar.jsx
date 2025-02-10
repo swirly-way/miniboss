@@ -3,7 +3,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
-const VariantButtonLayout = () => {
+export default function MainNavBar() {
   return (
     <Box
       sx={{
@@ -45,6 +45,4 @@ const VariantButtonLayout = () => {
       </ButtonGroup>
     </Box>
   );
-};
-
-export default VariantButtonLayout;
+}

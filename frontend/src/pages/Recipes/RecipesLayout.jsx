@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import VariantButtonRecipes from "./RecipesNavBar";
 
-const RecipesLayout = () => {
+export default function Layout() {
   return (
     <>
       <VariantButtonRecipes />
@@ -9,6 +9,4 @@ const RecipesLayout = () => {
       <Outlet />
     </>
   );
-};
-
-export default RecipesLayout;
+}

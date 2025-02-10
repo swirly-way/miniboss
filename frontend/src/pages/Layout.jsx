@@ -1,14 +1,12 @@
 import { Outlet } from "react-router-dom";
-import VariantButtonLayout from "./MainNavbar";
+import MainNavBar from "./MainNavbar";
 
-const Layout = () => {
+export default function Layout() {
   return (
     <>
-      <VariantButtonLayout />
+      <MainNavBar />
 
       <Outlet />
     </>
   );
-};
-
-export default Layout;
+}
